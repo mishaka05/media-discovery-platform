@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --bg-color:#111827;
+    --card-color:#1f2937;
+    --accent:#38bdf8;
+    --text:#ffffff;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:var(--bg-color);
+    color:var(--text);
+    font-family:Arial,sans-serif;
+}
